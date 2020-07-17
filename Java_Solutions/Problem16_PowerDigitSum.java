@@ -13,8 +13,6 @@ Steps to Answer:
 import java.math.BigInteger; //import when working with larger integers
 
 public class Problem16_PowerDigitSum {
-
-    
     /*
     Function sumOfDigits(BigInteger n) returns integer sum
      function takes in arg of type BigInteger
@@ -37,5 +35,4 @@ public class Problem16_PowerDigitSum {
         BigInteger x = bg.pow(1000); //raise 2 to the power of 1000
         System.out.println(sumOfDigits(x)); 
     }
-
 }
